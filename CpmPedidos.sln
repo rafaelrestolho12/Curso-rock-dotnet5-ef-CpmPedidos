@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpmPedidos.Domain", "CpmPedidos.Domain\CpmPedidos.Domain.csproj", "{18F40B16-52CB-4962-B389-B2E2E0D4A82B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpmPedidos.Interface", "CpmPedidos.Interface\CpmPedidos.Interface.csproj", "{B0DD9959-D0EB-4616-8C56-BAD6272F420C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpmPedidos.Repository", "CpmPedidos.Repository\CpmPedidos.Repository.csproj", "{D77B2D85-4CB3-40DC-9846-573EC3960872}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18F40B16-52CB-4962-B389-B2E2E0D4A82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F40B16-52CB-4962-B389-B2E2E0D4A82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F40B16-52CB-4962-B389-B2E2E0D4A82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F40B16-52CB-4962-B389-B2E2E0D4A82B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DD9959-D0EB-4616-8C56-BAD6272F420C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DD9959-D0EB-4616-8C56-BAD6272F420C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DD9959-D0EB-4616-8C56-BAD6272F420C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DD9959-D0EB-4616-8C56-BAD6272F420C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77B2D85-4CB3-40DC-9846-573EC3960872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77B2D85-4CB3-40DC-9846-573EC3960872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77B2D85-4CB3-40DC-9846-573EC3960872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77B2D85-4CB3-40DC-9846-573EC3960872}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
