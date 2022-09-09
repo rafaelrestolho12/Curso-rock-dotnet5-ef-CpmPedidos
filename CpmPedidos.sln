@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpmPedidos.Interface", "Cpm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpmPedidos.Repository", "CpmPedidos.Repository\CpmPedidos.Repository.csproj", "{D77B2D85-4CB3-40DC-9846-573EC3960872}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpmPedidos.API", "CpmPedidos.API\CpmPedidos.API.csproj", "{B511A32F-6BE7-4A4E-BF56-C9D82BDDA8D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D77B2D85-4CB3-40DC-9846-573EC3960872}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D77B2D85-4CB3-40DC-9846-573EC3960872}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D77B2D85-4CB3-40DC-9846-573EC3960872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B511A32F-6BE7-4A4E-BF56-C9D82BDDA8D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B511A32F-6BE7-4A4E-BF56-C9D82BDDA8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B511A32F-6BE7-4A4E-BF56-C9D82BDDA8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B511A32F-6BE7-4A4E-BF56-C9D82BDDA8D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
